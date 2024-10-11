@@ -1,0 +1,1 @@
+#include<stdio.h>int main(){    char ch;    printf("Enter your ASCII Character : ");    scanf("%c",&ch);    printf("Your ASCII Value is %d ",ch);    getch();}

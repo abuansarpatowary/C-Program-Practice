@@ -1,0 +1,1 @@
+#include<stdio.h>int main(){    int i;    float f;    double d;    char c;    printf("Integer size is %d bytes\n",sizeof(i));    printf("Float size is %d bytes\n",sizeof(f));    printf("Double size is %d bytes\n",sizeof(d));    printf("Character size is %d byte\n",sizeof(c));    getch();}

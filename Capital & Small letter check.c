@@ -1,0 +1,1 @@
+#include<stdio.h>int main(){    char letter;    printf("Enter any letter : ");    scanf("%ch",&letter);    if(letter>='a' && letter<='z')        printf("Small Letter ");    else if(letter>='A' && letter<='Z')        printf("Capital Letter ");    else        printf("Not a Letter ");    getch();}

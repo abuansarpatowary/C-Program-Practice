@@ -1,0 +1,1 @@
+#include<stdio.h>int main(){    int n,i,sum=0;    printf("Enter the value of N =");    scanf("%d",&n);    printf("1^2 + 2^2 + 3^2+.....+n^2 ");    for(i=1; i<=n; i++);    {        sum= sum+i*i;    }    printf(" =sum %d",sum);    getch();}

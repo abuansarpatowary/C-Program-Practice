@@ -1,0 +1,1 @@
+#include<stdio.h>int main(){    float num1,num2,num3,avg;    printf("Enter three numbers : ");    scanf("%f %f %f",&num1,&num2,&num3);   int sum= num1+num2+num3;    printf("The sum is = %d\n",sum);    avg= (float)sum/3;    printf("The average is = %.2f",avg);    getch();}

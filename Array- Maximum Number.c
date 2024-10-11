@@ -1,0 +1,1 @@
+#include<stdio.h>int main(){    int num[5],i;    printf("Enter five numbers : ");    for(i=0; i<5; i++)    {        scanf("%d",&num[i]);    }    int max= num[0];    for(i=1; i<5; i++)    {       if(max<num[i])        max=num[i];    }    printf("Maximum number %d",max);}

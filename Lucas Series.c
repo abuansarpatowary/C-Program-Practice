@@ -1,0 +1,1 @@
+#include<stdio.h>int main(){    int a,b,c,sum,n,i;    printf("Enter your range : ");    scanf("%d",&n);    a=1;    b=1;    c=1;    printf("%d %d %d ",a,b,c);    for(i=1; i<=n-3; i++)    {        sum= a+b+c;        printf("%d ",sum);        a=b;        b=c;        c=sum;    }    getch();}

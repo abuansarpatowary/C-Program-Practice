@@ -1,0 +1,1 @@
+#include<stdio.h>int main(){    int num[5],sum=0,i;    printf("Enter five numbers : ");    for(i=0; i<5; i++)    {        scanf("%d",&num[i]);    }    for(i=0; i<5; i++)    {        sum= sum+num[i];    }    printf("Sum = %d\n",sum);    printf("Average = %.2f",(float)sum/5);    getch();}

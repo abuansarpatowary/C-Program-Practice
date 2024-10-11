@@ -1,0 +1,1 @@
+#include<stdio.h>int main(){    char lower,upper,result;    printf("Enter any Uppercase letter : ");    scanf("%c",&upper);    result= tolower(upper);    printf("%c",result);    getch();}

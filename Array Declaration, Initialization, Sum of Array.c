@@ -1,0 +1,1 @@
+#include<stdio.h>int main(){    int num[3],i;    printf("Enter three numbers : ");    for(i=0; i<3; i++)    {    scanf("%d",&num[i]);    }    int sum=num[0]+num[1]+num[2];    printf("%d",sum);    getch();}

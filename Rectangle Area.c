@@ -1,0 +1,1 @@
+#include<stdio.h>int main(){    float length,width,area;    printf("Enter your length & width : ");    scanf("%f %f",&length,&width);    area= length*width;    printf("Your area of Rectangle %.2f",area);    getch();}

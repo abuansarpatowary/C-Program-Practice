@@ -1,0 +1,1 @@
+#include<stdio.h>int main(){    float c,k;    printf("Enter your centigrade : ");    scanf("%f",&c);    k= c+273;    printf(" Your kelvin is %.2f",k);    getch();}

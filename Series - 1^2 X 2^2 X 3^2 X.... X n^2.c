@@ -1,0 +1,1 @@
+#include<stdio.h>int main(){    int n,i,result=1;    printf("Enter the value of N : ");    scanf("%d",&n);     printf("1^2 X 2^2 X 3^2 X.... X n^2 ");    for(i=1; i<=n; i++)        {            result=result*i*i;        }    printf("\nResult = %d",result);    getch();}

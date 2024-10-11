@@ -1,0 +1,1 @@
+#include<stdio.h>int num=10;int main(){    printf("Inside the main  is %d\n",num);    display();}void display(){    printf("Outside the main is %d",num);}
